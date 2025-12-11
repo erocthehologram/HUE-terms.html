@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms & Conditions | HUE – Holographic Universe Entertainment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --navy: #071625;
+      --cream: #f5f0e6;
+      --teal: #1f6573;
+      --gold: #d89b31;
+      --orange: #d86a2b;
+      --red: #a4373b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--navy);
+      color: var(--cream);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2.5rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+
+    .logo-mark {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1rem;
+      position: relative;
+    }
+
+    .logo-mark .triangle {
+      width: 0;
+      height: 0;
+      border-left: 38px solid transparent;
+      border-right: 38px solid transparent;
+      border-bottom: 70px solid var(--cream);
+      filter: drop-shadow(0 0 6px rgba(0,0,0,0.6));
+    }
+
+    .logo-mark .triangle::before {
+      content: "";
+      position: absolute;
+      inset: 6px;
+      border-left: 32px solid transparent;
+      border-right: 32px solid transparent;
+      border-bottom: 58px solid var(--navy);
+    }
+
+    .spectrum {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      width: 150px;
+      height: 40px;
+      background: linear-gradient(
+        to right,
+        #1a5f70,
+        #2b6f6d,
+        #b89a4c,
+        #d88b34,
+        #c65338,
+        #8f3242
+      );
+      clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 55%);
+    }
+
+    .incoming-light {
+      position: absolute;
+      top: 40px;
+      left: -120px;
+      width: 120px;
+      height: 3px;
+      background: var(--cream);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      margin-top: .25rem;
+      font-size: .9rem;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      color: #d0c7b5;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      padding: 2rem 1.5rem 4rem;
+      background: rgba(5, 12, 24, 0.92);
+      border-radius: 18px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    p, li {
+      font-size: 0.95rem;
+      color: #e6ddd0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .last-updated {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #b3a894;
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 0 1rem 3rem;
+        padding: 1.5rem 1.2rem 3rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">
+    <div class="triangle"></div>
+    <div class="incoming-light"></div>
+    <div class="spectrum"></div>
+  </div>
+  <h1>HUE</h1>
+  <div class="subtitle">Holographic Universe Entertainment</div>
+</header>
+
+<main>
+  <div class="last-updated">Last updated: [Insert Date]</div>
+
+  <h2>1. Purpose and Scope</h2>
+  <p>
+    HUE (Holographic Universe Entertainment) (“HUE,” “we,” “us,” or “our”) is a creative
+    entertainment company producing video content, music, podcasts, and visual art exploring
+    consciousness, metaphysics, and personal growth. These Terms and Conditions (“Terms”) govern
+    your use of our website, digital content, media productions, and related services
+    (collectively, the “Services”). By accessing or using our Services, you agree to be bound by
+    these Terms.
+  </p>
+
+  <h2>2. Intellectual Property</h2>
+  <p>
+    All content produced or distributed by HUE—including videos, audio recordings, music, artwork,
+    text, design, and logos—is owned or licensed by HUE and protected by copyright and trademark
+    laws. You may not reproduce, distribute, modify, or use HUE content without our written
+    permission, except for limited personal, non-commercial viewing and listening.
+  </p>
+
+  <h2>3. User Conduct</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Use our Services for illegal or harmful purposes.</li>
+    <li>Upload or share content that infringes on others’ rights or violates any laws.</li>
+    <li>Attempt to hack, disrupt, or reverse engineer our platforms.</li>
+    <li>Misrepresent your affiliation with HUE or use our content for deceptive purposes.</li>
+  </ul>
+  <p>
+    HUE reserves the right to restrict or terminate access to users who violate these Terms.
+  </p>
+
+  <h2>4. Purchases and Payments</h2>
+  <p>
+    If you purchase merchandise, digital downloads, or access to paid events, you agree to provide
+    accurate billing information. Prices and availability are subject to change. Refunds and
+    exchanges, where offered, are handled according to our separate Refund Policy.
+  </p>
+
+  <h2>5. Content Disclaimer</h2>
+  <p>
+    Our content is for entertainment and educational purposes only. HUE does not provide medical,
+    psychological, legal, or financial advice. You are responsible for how you interpret and apply
+    any ideas or concepts presented in our media.
+  </p>
+
+  <h2>6. Third-Party Links and Services</h2>
+  <p>
+    Our Services may include links to third-party platforms or services. We are not responsible for
+    the content, privacy practices, or policies of third parties. Your use of those services is at
+    your own risk and subject to their respective terms.
+  </p>
+
+  <h2>7. Limitation of Liability</h2>
+  <p>
+    To the fullest extent permitted by law, HUE and its directors, employees, and affiliates shall
+    not be liable for any indirect, incidental, consequential, or special damages arising from or
+    related to your use of, or inability to use, our Services.
+  </p>
+
+  <h2>8. Privacy</h2>
+  <p>
+    Your use of our Services is also governed by our Privacy Policy, which explains how we collect,
+    use, and protect your information.
+  </p>
+
+  <h2>9. Termination</h2>
+  <p>
+    We may suspend or terminate your access to our Services at any time, with or without notice,
+    if we believe you have violated these Terms or engaged in fraudulent or unlawful activity.
+  </p>
+
+  <h2>10. Changes to Terms</h2>
+  <p>
+    We may update these Terms from time to time. Changes take effect when they are posted on this
+    page. Your continued use of the Services after changes are posted constitutes your acceptance
+    of the revised Terms.
+  </p>
+
+  <h2>11. Governing Law</h2>
+  <p>
+    These Terms are governed by and construed in accordance with the laws of the State of
+    [Indiana], without regard to its conflict of law principles.
+  </p>
+
+  <h2>12. Contact</h2>
+  <p>
+    For questions or concerns about these Terms, please contact:<br>
+    <strong>HUE – Holographic Universe Entertainment</strong><br>
+    [Your Business Address]<br>
+    <a href="mailto:[-]">[e@holographicuniverseent.com]</a><br>
+    <a href="https://holographicuniverseent.com</a>
+  </p>
+</main>
+
+</body>
+</html>
